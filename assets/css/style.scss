@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+
+html,
+body {
+    // background: #000 !important;
+    font-family: "SukhumvitSet-Text" !important;
+    color: #000B33;
+}
+
+a {
+    display: block;
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    li {
+        list-style: none;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+// fonts face
+@font-face {
+    font-family: "SukhumvitSet-Bold";
+    src: url("../../assets/fonts/SukhumvitSet/SukhumvitSet-Bold.ttf");
+}
+
+@font-face {
+    font-family: "SukhumvitSet-Medium";
+    src: url("../../assets/fonts/SukhumvitSet/SukhumvitSet-Medium.ttf");
+}
+
+@font-face {
+    font-family: "SukhumvitSet-Text";
+    src: url("../../assets/fonts/SukhumvitSet/SukhumvitSet-Text.ttf");
+}
+
+// Import
+@import "_body";
